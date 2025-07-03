@@ -15,7 +15,7 @@
 }
 
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   background-color: var(--background);
   color: var(--text-primary);
   overflow-x: hidden;
