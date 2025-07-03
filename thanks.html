@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .icon {
+      font-size: 4rem;
+      color: #4caf50;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .countdown {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">✅</div>
+    <h1>Thank You!</h1>
+    <p>Your message has been received. I’ll get back to you as soon as possible.</p>
+    <div class="countdown">Redirecting to homepage in <span id="seconds">5</span> seconds...</div>
+  </div>
+
+  <script>
+    let seconds = 5;
+    const countdown = document.getElementById('seconds');
+
+    const timer = setInterval(() => {
+      seconds--;
+      countdown.textContent = seconds;
+
+      if (seconds === 0) {
+        clearInterval(timer);
+        window.location.href = "https://1efferson.github.io/Portfolio_Website/index.html";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
