@@ -77,7 +77,7 @@ header {
 .nav-links {
   display: flex;
   gap: 1.5rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .cta-button a {
