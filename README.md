@@ -1,30 +1,55 @@
-<h2>💼 Jefferson Ampadu — 3D Portfolio Website</h2>
+# 💼 Jefferson Ampadu — 3D Portfolio Website
 
-<p>This is my personal 3D portfolio website built with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, featuring dynamic visuals and animations using <strong>Three.js</strong>, <strong>GSAP</strong>, and <strong>Typed.js</strong>. It showcases the projects I’ve worked on in a sleek, modern interface with smooth transitions and an animated D3.js-inspired background.</p>
+![Project Preview](assets/screenshots/projects.png)
 
-<h3>✨ Features</h3>
-<ul>
-  <li>🌐 Fully responsive design</li>
-  <li>🎬 Smooth animations using <strong>GSAP</strong></li>
-  <li>🧠 Dynamic D3-style background</li>
-  <li>🎮 Interactive 3D elements powered by <strong>Three.js</strong></li>
-  <li>⌨️ Typing animation with <strong>Typed.js</strong></li>
-  <li>📁 Projects section highlighting real-world work</li>
-</ul>
+This is my **personal 3D portfolio website**, crafted using **HTML**, **CSS**, and **JavaScript**, and enhanced with dynamic visuals using **Three.js**, **GSAP**, and **Typed.js**. It showcases my best work in a sleek, modern interface featuring smooth transitions and an interactive background inspired by **D3.js** effects.
 
-<h3>🚀 Technologies Used</h3>
-<ul>
-  <li><strong>HTML5 & CSS3</strong></li>
-  <li><strong>JavaScript (ES6+)</strong></li>
-  <li><strong>Three.js</strong> — 3D graphics</li>
-  <li><strong>GSAP</strong> — Animations</li>
-  <li><strong>Typed.js</strong> — Typing effect</li>
-  <li><strong>D3.js</strong> — Background effects (style inspiration or integration)</li>
-</ul>
+---
 
-<h3>📂 Structure</h3>
-<ul>
-  <li><code>initThreeJS()</code> — Initializes 3D scene</li>
-  <li><code>initTypedJS()</code> — Activates typing animation on text</li>
-  <li><code>initGSAP()</code> — Triggers page transitions and animations</li>
-</ul>
+## ✨ Features
+
+- 🌐 **Fully responsive** design for all screen sizes
+- 🎬 **Smooth animations** with [GSAP](https://greensock.com/gsap/)
+- 🧠 Dynamic **D3-style background**
+- 🎮 **Interactive 3D elements** powered by [Three.js](https://threejs.org/)
+- ⌨️ **Typing animation** via [Typed.js](https://github.com/mattboldt/typed.js/)
+- 📁 **Projects section** showcasing real-world work
+- 📞 Contact and About sections for easy communication
+
+---
+
+## 🚀 Technologies Used
+
+- **HTML5 & CSS3**
+- **JavaScript (ES6+)**
+- [**Three.js**](https://threejs.org/) – For rendering 3D scenes
+- [**GSAP**](https://greensock.com/gsap/) – For smooth, timeline-based animations
+- [**Typed.js**](https://github.com/mattboldt/typed.js/) – For simulating typed text
+- [**D3.js**](https://d3js.org/) – Background effects (used for inspiration or integration)
+
+---
+
+## 📸 Previews
+
+### 🧑‍💼 About
+![About Section](assets/screenshots/about.png)
+
+---
+
+### 📁 Projects
+![Projects Section](assets/screenshots/projects.png)
+
+---
+
+### 📬 Contact Me
+![Contact Section](assets/screenshots/contact_me.png)
+
+---
+
+### 💼 Experience
+![Experience Section](assets/screenshots/experience.png)
+
+
+
+
+
