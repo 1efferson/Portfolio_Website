@@ -1,5 +1,8 @@
 # 💼 Jefferson Ampadu — 3D Portfolio Website
 
+✅ Hosted at: https://1efferson.github.io/Portfolio_Website/
+-------------------------------------------------------------
+
 ![Project Preview](assets/screenshots/homepage.png)
 
 This is my **personal 3D portfolio website**, crafted using **HTML**, **CSS**, and **JavaScript**, and enhanced with dynamic visuals using **Three.js**, **GSAP**, and **Typed.js**. It showcases my best work in a sleek, modern interface featuring smooth transitions and an interactive background inspired by **D3.js** effects.
